@@ -1,6 +1,6 @@
 CXX := g++  #global specifier for the cpp comiler to be used i this case g++
 CXXFLAGS := -std=c++20 -Wall -Wextra -Wpedantic -g  #stores flag options for the compiler 
-TARGET := app # the name of the final executable
+TARGET := setup-test # the name of the final executable
 SRC := main.cpp  # name of the source code file 
 OBJ := $(SRC:.cpp=.o)  # generates object files by replacing the  .cpp in source files to .o
 
