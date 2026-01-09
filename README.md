@@ -95,4 +95,4 @@ git commit -m "Chapter 1: flow control mini-project"
 
 ## License
 
-MIT (see `LICENSE`).
+MIT (see [LICENSE](./LICENSE)).
