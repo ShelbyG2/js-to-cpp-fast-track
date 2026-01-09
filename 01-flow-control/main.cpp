@@ -1,22 +1,29 @@
 #include <iostream>
 using namespace std;
-int option;
+
+void run_if_else();
+
  int main (){
-    cout<<"=== Flow Control Examples ===\n";
-    cout<<"1. Conditional Statements\n" ;
-    cout<<"2. Loop Statements\n" ;
-    cout<<"3. Switch Statements\n" ;
-    cout<<"4. Break and Continue Statements\n" ;
- cout<<"Enter an option:";
+   
+   int option;
+
+
+    cout<<" ======================\n Flow Control Examples \n ======================\n";
+    cout<<" 1. Conditional Statements\n" ;
+    cout<<" 2. Loop Statements\n" ;
+    cout<<" 3. Switch Statements\n" ;
+    cout<<" 4. Break and Continue Statements\n" ;
+    cout<<" Enter an option:  ";
  cin>>option;
 
  if(!option){
     cerr<<"Invalid option";
+    return 0;
  }
       
  switch(option){
     case 1:
-    cout<<"1. Conditional Statements\n" ;
+    run_if_else();
     break;
     case 2:
     cout<<"2. Loop Statements\n" ;
@@ -25,9 +32,10 @@ int option;
     cout<<"3. Switch Statements\n" ;
     break;
     case 4:
-    cout<<"4. Break and Continue Statements\n" ;
+    cout<<" Work in progress ....\n" ;
+    break;
     default:
-    cout<<"Invalid option" ;
+    cout<<"Unknown option\n" ;
 
  }
  }
