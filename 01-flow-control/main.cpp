@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// These functions are implemented in other .cpp files under /examples.
 void run_if_else();
 void run_case();
 void run_loops();
@@ -8,7 +9,7 @@ void run_break_continue();
 int main() {
 
   int option;
-
+  // Menu option
   cout << " ======================\n Flow Control Examples \n "
           "======================\n";
   cout << " 1. Conditional Statements\n";

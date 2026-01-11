@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Demonstrates a switch statement by mapping a number (1-7) to a weekday.
 void run_case() {
   cout << "---\nSwitch case example (day of week)\n----\n";
   cout << "Enter a number (1-7): ";
