@@ -1,9 +1,26 @@
 #include <iostream>
 using namespace std;
 
+void  run_for () {
+    cout<<"---For loop---\n";
+ for (int i =0; i<=5; i++){
+    cout<<i<<"*\n";
+ }
+
+}
+
+void run_while(){
+    cout<<"---While loop---";
+   int j =0;
+   while(j<=6){
+    cout<<j++<<"*\n";
+   }
+
+}
+
 
 void run_loops (){
-cout<<"---\nLoops examples\n---";
+cout<<"---\nLoops examples\n---  1.For loop\n 2.While loop\n 3.Dow-while lopo\n";
 
 int option ;
 if (!option){
@@ -11,12 +28,6 @@ if (!option){
     return ;
 }
 
-void  run_for () {
- for (int i =0; i<=5; i++){
-    cout<<"*";
- }
- cout <<'\n';
-}
 if (option = 1){
     run_for();
 }
@@ -25,7 +36,6 @@ else if(option=2){
 }else{
     run_do_while();
 }
-
 
 
 
