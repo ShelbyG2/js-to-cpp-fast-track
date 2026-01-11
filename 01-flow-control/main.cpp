@@ -3,6 +3,7 @@ using namespace std;
 
 void run_if_else();
 
+void run_loops();
  int main (){
    
    int option;
@@ -26,7 +27,7 @@ void run_if_else();
     run_if_else();
     break;
     case 2:
-    cout<<"2. Loop Statements\n" ;
+   run_loops();
     break;
     case 3:
     cout<<"3. Switch Statements\n" ;
