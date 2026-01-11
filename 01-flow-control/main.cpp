@@ -4,6 +4,7 @@ using namespace std;
 void run_if_else();
 void run_case();
 void run_loops();
+void run_break_continue();
 int main() {
 
   int option;
@@ -33,7 +34,7 @@ int main() {
     run_case();
     break;
   case 4:
-    cout << " Work in progress ....\n";
+    run_break_continue();
     break;
   default:
     cout << "Unknown option\n";
