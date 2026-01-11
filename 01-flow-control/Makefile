@@ -1,7 +1,8 @@
 CXX := g++
 CXXFLAGS := -std=c++20 -Wall -Wextra -Wpedantic -g
 TARGET := app
-SRC := main.cpp
+SRC := main.cpp \
+       examples/if_else.cpp   examples/loops.cpp examples/case.cpp examples/break_continue.cpp
 OBJ := $(SRC:.cpp=.o)
 
 all: $(TARGET)
