@@ -18,7 +18,14 @@ void run_while(){
 
 }
 
-
+void run_do_while(){
+    cout<<"Do-while loop\n";
+    int k;
+    do{
+        cout<<k++<<"*";
+    } while (k<7);
+    
+}
 void run_loops (){
 cout<<"---\nLoops examples\n---  1.For loop\n 2.While loop\n 3.Dow-while lopo\n";
 
