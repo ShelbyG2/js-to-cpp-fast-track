@@ -2,41 +2,40 @@
 using namespace std;
 
 void run_if_else();
-
+void run_case();
 void run_loops();
- int main (){
-   
-   int option;
+int main() {
 
+  int option;
 
-    cout<<" ======================\n Flow Control Examples \n ======================\n";
-    cout<<" 1. Conditional Statements\n" ;
-    cout<<" 2. Loop Statements\n" ;
-    cout<<" 3. Switch Statements\n" ;
-    cout<<" 4. Break and Continue Statements\n" ;
-    cout<<" Enter an option:  ";
- cin>>option;
+  cout << " ======================\n Flow Control Examples \n "
+          "======================\n";
+  cout << " 1. Conditional Statements\n";
+  cout << " 2. Loop Statements\n";
+  cout << " 3. Switch Statements\n";
+  cout << " 4. Break and Continue Statements\n";
+  cout << " Enter an option:  ";
+  cin >> option;
 
- if(!option){
-    cerr<<"Invalid option";
+  if (!option) {
+    cerr << "Invalid option";
     return 0;
- }
-      
- switch(option){
-    case 1:
+  }
+
+  switch (option) {
+  case 1:
     run_if_else();
     break;
-    case 2:
-   run_loops();
+  case 2:
+    run_loops();
     break;
-    case 3:
-    cout<<"3. Switch Statements\n" ;
+  case 3:
+    run_case();
     break;
-    case 4:
-    cout<<" Work in progress ....\n" ;
+  case 4:
+    cout << " Work in progress ....\n";
     break;
-    default:
-    cout<<"Unknown option\n" ;
-
- }
- }
+  default:
+    cout << "Unknown option\n";
+  }
+}

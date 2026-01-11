@@ -2,7 +2,7 @@ CXX := g++
 CXXFLAGS := -std=c++20 -Wall -Wextra -Wpedantic -g
 TARGET := app
 SRC := main.cpp \
-       examples/if_else.cpp   examples/loops.cpp
+       examples/if_else.cpp   examples/loops.cpp examples/case.cpp
 OBJ := $(SRC:.cpp=.o)
 
 all: $(TARGET)
